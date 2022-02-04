@@ -21,11 +21,10 @@ figma.ui.onmessage = msg => {
     const nodes: SceneNode[] = [];
     const names: string[] = [
       "Alex Mathers", 
-      "Abby Chornous", 
-      "Andrew Lauder", 
-      "Carly Dezeil", 
-      "Oliver Chornous", 
-      "Tori Clarke"
+      "Dave Shea", 
+      "Aman Biswas", 
+      "Maria Dubecki", 
+      "Jon Rundle"
     ];
 
 
