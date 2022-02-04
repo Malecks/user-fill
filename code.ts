@@ -7,11 +7,6 @@
 
 // This shows the HTML page in "ui.html".
 
-const fs = require('fs');
-let rawdata = fs.readFileSync('users.json');
-let users = JSON.parse(rawdata);
-console.log(users);
-
 figma.showUI(__html__);
 
 figma.loadFontAsync({ family: "Roboto", style:"Regular" })
