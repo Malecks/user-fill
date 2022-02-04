@@ -1,0 +1,17 @@
+<h2>User Fill</h2>
+<p>Count: <input id="count" value="1"></p>
+<button id="add-users">Add Users</button>
+<button id="cancel">Cancel</button>
+<script>
+
+document.getElementById('add-users').onclick = () => {
+  const textbox = document.getElementById('count');
+  const count = parseInt(textbox.value, 10);
+  parent.postMessage({ pluginMessage: { type: 'create-users', count } }, '*')
+}
+
+document.getElementById('cancel').onclick = () => {
+  parent.postMessage({ pluginMessage: { type: 'cancel' } }, '*')
+}
+
+</script>
