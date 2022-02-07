@@ -21,6 +21,7 @@ figma.ui.onmessage = msg => {
       ellipse.resize(60, 60);
       ellipse.y = i * 150;
       ellipse.fills = [{type: 'SOLID', color: {r: 0.85, g: 0.85, b: 0.85}}];
+      ellipse.name = "Avatar"
       figma.currentPage.appendChild(ellipse);
      
       //Add username
@@ -32,7 +33,7 @@ figma.ui.onmessage = msg => {
       }
       
       userName.fontSize = 17;
-      userName.y = i*150;
+      userName.y = i*150 + 20;
       userName.x = 72;
       figma.currentPage.appendChild(userName);
 
