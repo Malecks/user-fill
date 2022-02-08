@@ -57,7 +57,6 @@ function createUsers(count: number) {
 
 function createLayout() {
   let frame = figma.createFrame();
-  // let padding = 8;
   frame.layoutMode = "VERTICAL";
   frame.itemSpacing = padding;
   frame.paddingTop = frame.paddingLeft = frame.paddingBottom = frame.paddingRight = padding;
@@ -87,10 +86,10 @@ function createUserFrame() {
   let frame = figma.createFrame();
   frame.layoutMode = "HORIZONTAL";
   frame.counterAxisAlignItems = "CENTER";
-  frame.paddingLeft = frame.paddingRight = frame.paddingTop = frame.paddingBottom = padding;
-  frame.itemSpacing = padding;
   frame.primaryAxisSizingMode = "AUTO";
   frame.counterAxisSizingMode = "AUTO";
+  frame.paddingLeft = frame.paddingRight = frame.paddingTop = frame.paddingBottom = padding;
+  frame.itemSpacing = padding;
   frame.fills = [];
   return frame;
 }
