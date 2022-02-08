@@ -2,46 +2,46 @@
     {
         "firstName":"Alex",
         "lastName":"Mathers",
-        "avatar":""
+        "imgPath":"burns.jpg"
     },
     {
         "firstName":"Dave",
         "lastName":"Shea",
-        "avatar":""
+        "imgPath":"burns.jpg"
     },
     {
         "firstName":"Aman",
         "lastName":"Biswas",
-        "avatar":""
+        "imgPath":"burns.jpg"
     },
     {
         "firstName":"Maria",
         "lastName":"Dubecki",
-        "avatar":""
+        "imgPath":""
     },
     {
         "firstName":"Jon",
         "lastName":"Rundle",
-        "avatar":""
+        "imgPath":""
     },
     {
         "firstName":"Tobi",
         "lastName":"Lütke",
-        "avatar":""
+        "imgPath":""
     },
     {
         "firstName":"Abigail",
         "lastName":"Chornous",
-        "avatar":""
+        "imgPath":""
     },
     {
         "firstName":"Andrew",
         "lastName":"Lauder",
-        "avatar":""
+        "imgPath":""
     },
     {
         "firstName":"Carly",
         "lastName":"Dezeil",
-        "avatar":""
+        "imgPath":""
     }
 ]

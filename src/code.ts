@@ -17,7 +17,6 @@ figma.ui.onmessage = msg => {
 }
 
 function createUsers(count: number) {
-
   let nodes: SceneNode[] = [];
   for (let i = 0; i < count; i++) {
     let user = users[i];
